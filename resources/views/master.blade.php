@@ -30,6 +30,9 @@
     <link rel="icon" type="image/png" sizes="96x96" href="assets/favicon/favicon-96x96.png">
     <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon/favicon-16x16.png">
     <link rel="manifest" href="assets/favicon/manifest.json">
+    <link href="vendors/@coreui/icons/css/brand.min.css" rel="stylesheet">
+    <link href="vendors/@coreui/icons/css/free.min.css" rel="stylesheet">
+
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="assets/favicon/ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
@@ -37,6 +40,7 @@
     <link href="css/style.css" rel="stylesheet">
     <!-- Global site tag (gtag.js) - Google Analytics-->
     <script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-118965717-3"></script>
+    
     <script>
       window.dataLayer = window.dataLayer || [];
 
@@ -70,6 +74,9 @@
     <!--[if IE]><!-->
     <script src="vendors/@coreui/icons/js/svgxuse.min.js"></script>
     <!--<![endif]-->
+    <script src="vendors/@coreui/chartjs/js/coreui-chartjs.bundle.js"></script>
+    <script src="js/charts.js"></script>
+
 
   </body>
 </html>
